@@ -77,6 +77,8 @@ class _JankenPageState extends State<JankenPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Text('じゃんけんの勝敗表示',
+            style: TextStyle(fontSize: 36),),
             Text(
               result,
               style: TextStyle(
